@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ermac">
+
+    <Button
+        android:id="@+id/clan"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="274dp"
+        android:background="#2b78cb"
+        android:fontFamily="@font/cinzel"
+        android:onClick="clanes"
+        android:text="Clan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/luchador"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="340dp"
+        android:background="#257ec1"
+        android:fontFamily="@font/cinzel"
+        android:onClick="consulta"
+        android:text="Uno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+</RelativeLayout>

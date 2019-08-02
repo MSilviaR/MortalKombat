@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poster"
+    tools:context=".ActivityMostrar">
+
+    <EditText
+        android:id="@+id/armas"
+        android:layout_width="316dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:id="@+id/clan"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:id="@+id/alineacion"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="184dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:fontFamily="@font/cinzel"
+        android:onClick="consultar_luchador"
+        android:text="¡Consultar!"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/raza"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alineacion"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="111dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_red_light" />
+</RelativeLayout>
